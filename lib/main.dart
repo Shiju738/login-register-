@@ -18,6 +18,7 @@ class MyApp extends ConsumerWidget {
     final router = ref.watch(goRouterProvider);
 
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       title: 'Login App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
